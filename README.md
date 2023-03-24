@@ -1,8 +1,8 @@
 # project2
 
-This Project is proposing two possible data sets to work with. 
+ 
 
-The first Dataset is Bank Marketing
+This project will be focusing on the  Bank Marketing from Kaggle described below.
 
 1) Source of data
 Source:
@@ -26,26 +26,3 @@ Visualization
 Preprocessing
 Scaling
 OneHotEncoding of Nominal Features
-
-The Second is Fertility Data Set
-
-1) Source of data
-David Gil, dgil '@' dtic.ua.es, Lucentia Research Group, Department of Computer Technology, University of Alicante
-2) Brief description of data
-100 volunteers provide a semen sample analyzed according to the WHO 2010 criteria. Sperm concentration are related to socio-demographic data, environmental factors, health status, and life habits
-3) What is the target?
-Diagnosis normal (N), altered (O)
-4) Is this a classification or regression problem?
-This is Classificatio Problem
-5) How many features?
-10
-6) How many rows of data.
-100
-7) What, if any, challenges do your foresee in cleaning, exploring, or modeling with this dataset?
-Cleaning
-Renaming Columns
-Exploring
-Correlation
-Visualization
-Preprocessing
-Scaling

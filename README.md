@@ -2,7 +2,7 @@
 
  
 
-This project will be focusing on the  Bank Marketing from Kaggle described below.
+This project will be focusing on the  Bank Marketing Data Set from Kaggle described below.
 
 1) Source of data
 Source:

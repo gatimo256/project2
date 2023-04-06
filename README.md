@@ -83,6 +83,6 @@ Below is the classification Report for the tuned Logistic Regression Model
 ![alt text](https://github.com/gatimo256/project2/blob/8a74bfe1270513f3cc7b2bf915b3a79af7b0cd24/Screen%20Shot%202023-04-06%20at%2013.46.16.png)
 
 
-Proposed future activities
+Proposed future activities for the production model
 - With the imbalanced data, I will perform some DataSampling Techniques(oversampling, undersampling) to introduce some balance to the target data. Maybe then the Learning Model will perform better than than it is now. 
 

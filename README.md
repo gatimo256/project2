@@ -28,8 +28,9 @@ Scaling
 OneHotEncoding of Nominal Features
 
 
-Relevant insights from the data.
--- insert heatmap
+# Relevant insights from the data.
+
+
 ![alt text](https://github.com/gatimo256/project2/blob/58ba4abe8868a2775c10ef72999525d5db015bca/Corr.png)
 Most of the features have weak correlations with one another apart from pdays and previous outcome which have a moderate positive correlation with one another.
 

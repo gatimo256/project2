@@ -18,14 +18,14 @@ This is a classification Problem 5) How many features?
 6) How many rows of data.
 4521
 7) What, if any, challenges do your foresee in cleaning, exploring, or modeling with this dataset?
-Cleaning
-None
-Exploring
-Correlation
-Visualization
-Preprocessing
-Scaling
-OneHotEncoding of Nominal Features
+- Cleaning
+ -None
+- Exploring
+- Correlation
+- Visualization
+- Preprocessing
+- Scaling
+- OneHotEncoding of Nominal Features
 
 
 # Relevant insights from the data.

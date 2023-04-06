@@ -80,15 +80,9 @@ This was was chosen as the final regression model and with further Hyper Paramet
 
 Below is the classification Report for the tuned Logistic Regression Model
 
-              precision    recall  f1-score   support
+![alt text](https://github.com/gatimo256/project2/blob/8a74bfe1270513f3cc7b2bf915b3a79af7b0cd24/Screen%20Shot%202023-04-06%20at%2013.46.16.png)
 
-           0       0.93      0.75      0.83      1205
-           1       0.22      0.57      0.32       152
 
-    accuracy                           0.73      1357
-   macro avg       0.58      0.66      0.58      1357
-weighted avg       0.85      0.73      0.78      1357
-
-**Proposed future activities**
+Proposed future activities
 - With the imbalanced data, I will perform some DataSampling Techniques(oversampling, undersampling) to introduce some balance to the target data. Maybe then the Learning Model will perform better than than it is now. 
 

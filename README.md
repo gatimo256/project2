@@ -32,22 +32,28 @@ OneHotEncoding of Nominal Features
 
 
 ![alt text](https://github.com/gatimo256/project2/blob/58ba4abe8868a2775c10ef72999525d5db015bca/Corr.png)
+
+
 Most of the features have weak correlations with one another apart from pdays and previous outcome which have a moderate positive correlation with one another.
 
--- insert box plot
+![alt text](https://github.com/gatimo256/project2/blob/ef01c0fd9cbdc07a0750e228a4461da3eee8d4bb/Box%20Plot.png)
+
+
 From the Visualization above we can see that distribution of Age from different Job types.
 * As expected,most customers who are retired are between 60 and 70 years
 * Customers in Management are within 30 and 50 years of age.
 
 
--- insert graphy of duration
+![alt text](https://github.com/gatimo256/project2/blob/ef01c0fd9cbdc07a0750e228a4461da3eee8d4bb/Poutcome.png)
 
 Longer Call durations had a higher success rate from the previous campaign
 
--- insert percentage yes/no
+![alt text](https://github.com/gatimo256/project2/blob/ef01c0fd9cbdc07a0750e228a4461da3eee8d4bb/Percentage%20Yes:No.png)
+
+
 From the visualization above we can see that the customers who said yes to the Previous Campain had a higher percentange of saying yes to the Current Term Deposit Campaign
 
--- insert pie charts
+![alt text](https://github.com/gatimo256/project2/blob/ef01c0fd9cbdc07a0750e228a4461da3eee8d4bb/Pie%20charts.png)
 
 From the above visualization we can make the following observiations
 * 85 percent of customers don't have a personal loan
@@ -56,9 +62,9 @@ From the above visualization we can make the following observiations
 * The most common job type for our customers is Blue Collar and Managemnt Jobs with 21%
 
 
-Machine Learning
+# Machine Learning
 
-The Machine Learning Models used were as follows
+••The Machine Learning Models used were as follows••
 - Logistic Regression Model
 - Random Forrest Classifier
 - XGB Classifier
@@ -72,6 +78,17 @@ Not only did it perform better but it had the fastest run time out of all the 4 
 
 This was was chosen as the final regression model and with further Hyper Parameter tuning, the f1-score was improved to 0.32. A significant improvement but still not good for a production model. 
 
-Proposed future activities
+Below is the classification Report for the tuned Logistic Regression Model
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.75      0.83      1205
+           1       0.22      0.57      0.32       152
+
+    accuracy                           0.73      1357
+   macro avg       0.58      0.66      0.58      1357
+weighted avg       0.85      0.73      0.78      1357
+
+**Proposed future activities**
 - With the imbalanced data, I will perform some DataSampling Techniques(oversampling, undersampling) to introduce some balance to the target data. Maybe then the Learning Model will perform better than than it is now. 
 
